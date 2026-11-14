@@ -1,0 +1,10 @@
+1.  Defaults come LAST           def f(a, b=2)
+2.  Never use [] {} as default  → use None
+3.  *args   = TUPLE             unnamed things
+4.  **kwargs = DICT             named things
+5.  Order: required → default → *args → **kwargs
+6.  Trap fix: None → items = [] → append (no loop)
+7.  *args name is convention    *nums, *items also work
+8.  **kwargs keys must be strings
+9.  print(end=" ")  = no newline   sep="-" = A-B-C
+10. dict.get(key, default)     returns default if missing

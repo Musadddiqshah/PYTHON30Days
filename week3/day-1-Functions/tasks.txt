@@ -1,0 +1,126 @@
+==============================
+WEEK 3 - DAY 1: FUNCTIONS
+Practice Tasks (7 Questions)
+==============================
+
+Solve each one in a new file (solutions.py).
+No hints. Try for 10 minutes before giving up.
+
+--------------------------------
+QUESTION 1 - Basic Function
+--------------------------------
+Write a function called multiply(a, b) that returns
+the product of a and b.
+
+Call it with (6, 7) and print the result.
+
+Expected output: 42
+
+
+--------------------------------
+QUESTION 2 - Default Parameter
+--------------------------------
+Write a function called greet(name, greeting="Hello")
+that returns a greeting message.
+
+Call it 3 ways:
+  1. greet("Ali")               -> "Hello, Ali"
+  2. greet("Sara", "Hi")        -> "Hi, Sara"
+  3. greet("John", "Welcome")   -> "Welcome, John"
+
+Print all 3 results.
+
+
+--------------------------------
+QUESTION 3 - Return Multiple Values
+--------------------------------
+Write a function called stats(nums) that takes a list
+of numbers and returns THREE values:
+  - the minimum
+  - the maximum
+  - the average
+
+Example:
+  stats([10, 20, 30])
+  should give: 10, 30, 20.0
+
+Unpack the result into lo, hi, avg and print all three.
+
+
+--------------------------------
+QUESTION 4 - Early Return
+--------------------------------
+Write a function called check_number(n) that:
+  - returns "negative" if n < 0
+  - returns "zero"     if n == 0
+  - returns "positive" if n > 0
+
+Use early return (a return inside an if).
+Do NOT use elif.
+
+Test with:
+  check_number(-5)   -> "negative"
+  check_number(0)    -> "zero"
+  check_number(7)    -> "positive"
+
+
+--------------------------------
+QUESTION 5 - Positional vs Keyword
+--------------------------------
+Write a function called introduce(name, age, city)
+that returns a sentence like:
+  "My name is Ali, I am 18 years old, from Nushki"
+
+Call it 3 ways:
+  1. All positional:   introduce("Ali", 18, "Nushki")
+  2. All keyword:      introduce(city="Quetta", name="Sara", age=20)
+  3. Mixed:            introduce("John", age=25, city="Lahore")
+
+Print all 3 results.
+
+
+--------------------------------
+QUESTION 6 - *args
+--------------------------------
+Write a function called total(*nums) that returns
+the sum of any number of arguments.
+
+Test with:
+  total()                     -> 0
+  total(5)                    -> 5
+  total(1, 2, 3, 4, 5)        -> 15
+  total(100, 200, 300)        -> 600
+
+Print all results.
+
+
+--------------------------------
+QUESTION 7 - Lambda + sorted
+--------------------------------
+You have this list of students:
+
+students = [
+    ("Ali",   85),
+    ("Sara",  42),
+    ("John",  91),
+    ("Mia",   67),
+]
+
+Write ONE line using sorted() and a lambda to sort
+the students by score (second item) in DESCENDING order.
+
+Expected output:
+[('John', 91), ('Ali', 85), ('Mia', 67), ('Sara', 42)]
+
+
+==============================
+DONE?
+==============================
+After solving all 7:
+  1. Run solutions.py - check every output
+  2. If any error - try again before asking
+  3. Once all pass - close this file
+  4. Tomorrow: solve all 7 AGAIN from memory
+
+That is how you actually learn functions.
+==============================
